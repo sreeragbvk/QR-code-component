@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    background-color: #D5E1EF;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.QR-code{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.content{
+    width: 288px;
+    padding: 24px 16px 0 16px;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 1.375rem;
+    font-family: "Outfit", serif;
+    font-weight: 700;
+    color: #1F314F;
+    padding: 0;
+    margin: 0;
+}
+
+.Description{
+    font-size: 0.9375rem;
+    font-family: "Outfit", serif;
+    font-weight:  400;
+    color: #68778D;
+    padding: 10px 0 0 0 ;
+    margin: 0;
+}
